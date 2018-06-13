@@ -11,7 +11,7 @@ def getKeyWordsFromUrl(url):
     return article.keywords
 
 
-#sample to extract keywords from a url
+#sample code to extract keywords from a url.
 if __name__ == '__main__':
     url = "https://www.tutorialspoint.com/python/python_functions.htm"
     keywords = getKeyWordsFromUrl(url)
